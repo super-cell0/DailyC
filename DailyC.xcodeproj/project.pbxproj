@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0400558F2AAF56DD00A6A5FE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0400558E2AAF56DD00A6A5FE /* main.c */; };
+		0457A9372AB534D9006B9E36 /* strings.c in Sources */ = {isa = PBXBuildFile; fileRef = 0457A9362AB534D9006B9E36 /* strings.c */; };
+		04601ACA2AB1F90E00E19B4C /* aboutArrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 04601AC92AB1F90E00E19B4C /* aboutArrays.c */; };
+		04EEBD392AB7460F00EBBE94 /* memoryC.c in Sources */ = {isa = PBXBuildFile; fileRef = 04EEBD382AB7460F00EBBE94 /* memoryC.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		0400558B2AAF56DD00A6A5FE /* DailyC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DailyC; sourceTree = BUILT_PRODUCTS_DIR; };
 		0400558E2AAF56DD00A6A5FE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0457A9362AB534D9006B9E36 /* strings.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = strings.c; sourceTree = "<group>"; };
+		04601AC92AB1F90E00E19B4C /* aboutArrays.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aboutArrays.c; sourceTree = "<group>"; };
+		04EEBD382AB7460F00EBBE94 /* memoryC.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = memoryC.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 			isa = PBXGroup;
 			children = (
 				0400558E2AAF56DD00A6A5FE /* main.c */,
+				04601AC92AB1F90E00E19B4C /* aboutArrays.c */,
+				0457A9362AB534D9006B9E36 /* strings.c */,
+				04EEBD382AB7460F00EBBE94 /* memoryC.c */,
 			);
 			path = DailyC01;
 			sourceTree = "<group>";
@@ -128,6 +137,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0400558F2AAF56DD00A6A5FE /* main.c in Sources */,
+				0457A9372AB534D9006B9E36 /* strings.c in Sources */,
+				04EEBD392AB7460F00EBBE94 /* memoryC.c in Sources */,
+				04601ACA2AB1F90E00E19B4C /* aboutArrays.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
