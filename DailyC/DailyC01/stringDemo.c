@@ -1,11 +1,11 @@
 //
-//  strings.c
+//  stringDemo.c
 //  DailyC
 //
-//  Created by mac on 2023/9/16.
+//  Created by mac on 2023/9/18.
 //
 
-#include <stdio.h>
+#include "stringDemo.h"
 
 char greeting[] = "beidixiaoxiong hello";
 
@@ -54,6 +54,3 @@ int inputStr(void)
     
     return 0;
 }
-
-
- 

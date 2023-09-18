@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0400558F2AAF56DD00A6A5FE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0400558E2AAF56DD00A6A5FE /* main.c */; };
-		0457A9372AB534D9006B9E36 /* strings.c in Sources */ = {isa = PBXBuildFile; fileRef = 0457A9362AB534D9006B9E36 /* strings.c */; };
-		04601ACA2AB1F90E00E19B4C /* aboutArrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 04601AC92AB1F90E00E19B4C /* aboutArrays.c */; };
-		04EEBD392AB7460F00EBBE94 /* memoryC.c in Sources */ = {isa = PBXBuildFile; fileRef = 04EEBD382AB7460F00EBBE94 /* memoryC.c */; };
+		04215FFF2AB898DF007F69C0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 04215FFE2AB898DF007F69C0 /* main.c */; };
+		042160022AB89C0B007F69C0 /* declareDemo.c in Sources */ = {isa = PBXBuildFile; fileRef = 042160012AB89C0B007F69C0 /* declareDemo.c */; };
+		042160052AB89D36007F69C0 /* structDemo.c in Sources */ = {isa = PBXBuildFile; fileRef = 042160042AB89D36007F69C0 /* structDemo.c */; };
+		042160082AB89D70007F69C0 /* memoryDemo.c in Sources */ = {isa = PBXBuildFile; fileRef = 042160072AB89D70007F69C0 /* memoryDemo.c */; };
+		0421600B2AB89DBA007F69C0 /* stringDemo.c in Sources */ = {isa = PBXBuildFile; fileRef = 0421600A2AB89DBA007F69C0 /* stringDemo.c */; };
+		0421600E2AB89DEA007F69C0 /* aboutArraysDemo.c in Sources */ = {isa = PBXBuildFile; fileRef = 0421600D2AB89DEA007F69C0 /* aboutArraysDemo.c */; };
+		042160112AB89E0D007F69C0 /* commonDemo.c in Sources */ = {isa = PBXBuildFile; fileRef = 042160102AB89E0D007F69C0 /* commonDemo.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,10 +30,20 @@
 
 /* Begin PBXFileReference section */
 		0400558B2AAF56DD00A6A5FE /* DailyC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DailyC; sourceTree = BUILT_PRODUCTS_DIR; };
-		0400558E2AAF56DD00A6A5FE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		0457A9362AB534D9006B9E36 /* strings.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = strings.c; sourceTree = "<group>"; };
-		04601AC92AB1F90E00E19B4C /* aboutArrays.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aboutArrays.c; sourceTree = "<group>"; };
-		04EEBD382AB7460F00EBBE94 /* memoryC.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = memoryC.c; sourceTree = "<group>"; };
+		04215FFD2AB898DF007F69C0 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		04215FFE2AB898DF007F69C0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		042160002AB89C0B007F69C0 /* declareDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = declareDemo.h; sourceTree = "<group>"; };
+		042160012AB89C0B007F69C0 /* declareDemo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = declareDemo.c; sourceTree = "<group>"; };
+		042160032AB89D36007F69C0 /* structDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = structDemo.h; sourceTree = "<group>"; };
+		042160042AB89D36007F69C0 /* structDemo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = structDemo.c; sourceTree = "<group>"; };
+		042160062AB89D70007F69C0 /* memoryDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = memoryDemo.h; sourceTree = "<group>"; };
+		042160072AB89D70007F69C0 /* memoryDemo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = memoryDemo.c; sourceTree = "<group>"; };
+		042160092AB89DBA007F69C0 /* stringDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stringDemo.h; sourceTree = "<group>"; };
+		0421600A2AB89DBA007F69C0 /* stringDemo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stringDemo.c; sourceTree = "<group>"; };
+		0421600C2AB89DEA007F69C0 /* aboutArraysDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aboutArraysDemo.h; sourceTree = "<group>"; };
+		0421600D2AB89DEA007F69C0 /* aboutArraysDemo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aboutArraysDemo.c; sourceTree = "<group>"; };
+		0421600F2AB89E0D007F69C0 /* commonDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commonDemo.h; sourceTree = "<group>"; };
+		042160102AB89E0D007F69C0 /* commonDemo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = commonDemo.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,10 +84,20 @@
 		040055952AAF56E400A6A5FE /* DailyC01 */ = {
 			isa = PBXGroup;
 			children = (
-				0400558E2AAF56DD00A6A5FE /* main.c */,
-				04601AC92AB1F90E00E19B4C /* aboutArrays.c */,
-				0457A9362AB534D9006B9E36 /* strings.c */,
-				04EEBD382AB7460F00EBBE94 /* memoryC.c */,
+				04215FFD2AB898DF007F69C0 /* main.h */,
+				04215FFE2AB898DF007F69C0 /* main.c */,
+				042160002AB89C0B007F69C0 /* declareDemo.h */,
+				042160012AB89C0B007F69C0 /* declareDemo.c */,
+				042160032AB89D36007F69C0 /* structDemo.h */,
+				042160042AB89D36007F69C0 /* structDemo.c */,
+				042160062AB89D70007F69C0 /* memoryDemo.h */,
+				042160072AB89D70007F69C0 /* memoryDemo.c */,
+				042160092AB89DBA007F69C0 /* stringDemo.h */,
+				0421600A2AB89DBA007F69C0 /* stringDemo.c */,
+				0421600C2AB89DEA007F69C0 /* aboutArraysDemo.h */,
+				0421600D2AB89DEA007F69C0 /* aboutArraysDemo.c */,
+				0421600F2AB89E0D007F69C0 /* commonDemo.h */,
+				042160102AB89E0D007F69C0 /* commonDemo.c */,
 			);
 			path = DailyC01;
 			sourceTree = "<group>";
@@ -136,10 +159,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0400558F2AAF56DD00A6A5FE /* main.c in Sources */,
-				0457A9372AB534D9006B9E36 /* strings.c in Sources */,
-				04EEBD392AB7460F00EBBE94 /* memoryC.c in Sources */,
-				04601ACA2AB1F90E00E19B4C /* aboutArrays.c in Sources */,
+				042160082AB89D70007F69C0 /* memoryDemo.c in Sources */,
+				0421600B2AB89DBA007F69C0 /* stringDemo.c in Sources */,
+				042160112AB89E0D007F69C0 /* commonDemo.c in Sources */,
+				04215FFF2AB898DF007F69C0 /* main.c in Sources */,
+				0421600E2AB89DEA007F69C0 /* aboutArraysDemo.c in Sources */,
+				042160052AB89D36007F69C0 /* structDemo.c in Sources */,
+				042160022AB89C0B007F69C0 /* declareDemo.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,11 +1,11 @@
 //
-//  aboutArrays.c
+//  aboutArraysDemo.c
 //  DailyC
 //
-//  Created by mac on 2023/9/13.
+//  Created by mac on 2023/9/18.
 //
 
-#include <stdio.h>
+#include "aboutArraysDemo.h"
 
 
 int onArray(void)
@@ -66,7 +66,7 @@ int aboutEnum(void)
         } else {
             break; // 如果输入合法，则跳出循环
         }
-    } while(1); // 无限循环，直到输入合法或程序终止 
+    } while(1); // 无限循环，直到输入合法或程序终止
         
     switch (day) {
         case mon:

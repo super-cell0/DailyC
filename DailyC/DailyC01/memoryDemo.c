@@ -1,8 +1,8 @@
 //
-//  memoryC.c
+//  memoryDemo.c
 //  DailyC
 //
-//  Created by mac on 2023/9/17.
+//  Created by mac on 2023/9/18.
 //
 
 /*
@@ -22,17 +22,39 @@
  */
 
 // 从系统库中获取 stdio.h 并添加文本到当前的源文件中
-#include <stdio.h>
 
 // 从本地目录中获取 myheader.h，并添加内容到当前的源文件中
 //#include ""
 
+#include "memoryDemo.h"
+
 // 把所有的 MAX_ARRAY_LENGTH 替换为 20
 #define MAX_ARRAY_LENGHT 20
 
+//取消已定义的 FILE_SIZE，并定义它为 42
+#undef FILE_SIZE
+#define FILE_SIZE 43
 
+//只有当 MESSAGE 未定义时，才定义 MESSAGE
+#ifndef MESSAGE
+    #define MESSAGE "hello c"
+#endif
 
+//宏延续运算符 \
+//字符串常量化运算符 #
+#define message_for(a, b) \
+    printf(#a " and " #b ": We love you!\n")
 
+//宏定义内的标记粘贴运算符（##）会合并两个参数。它允许在宏定义中两个独立的标记被合并为一个标记
+#define toChener(n) printf("tochen" #n " = %d", tochen##n)
+
+//如果指定的标识符已定义，则值为真（非零）。如果指定的标识符未定义，则值为假（零）
+#if !defined (MESSAGE)
+   #define MESSAGE "You wish!"
+#endif
+
+#define square(x) ((x) * (x))
+#define MAX(x,y) ((x) > (y) ? (x) : (y)
 
 //指针 是一个变量，它存储另一个变量的内存地址作为其值
 //指针变量 指向同一类型的数据类型
@@ -58,8 +80,15 @@ int memoryAddress(void)
     return 0;
 }
 
-int main(void)
+int testDefine(void)
 {
-    memoryAddress();
+    printf("File: %s\n", __FILE__);
+    printf("Date: %s\n", __DATE__);
+    printf("Time: %s\n", __TIME__);
+    printf("Line: %d\n", __LINE__);
+    printf("ANSI: %d\n", __STDC__);
+    
     return 0;
 }
+
+
