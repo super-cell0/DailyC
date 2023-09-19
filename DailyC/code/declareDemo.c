@@ -18,11 +18,6 @@ void addName(char name[], int age)
 }
 
 
-// 函数声明
-int func01(int x, int y);
-//int sum(int a);
-
-
 // 函数定义
 int func01(int x, int y)
 {

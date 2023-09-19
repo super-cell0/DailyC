@@ -30,7 +30,6 @@
 
 /* Begin PBXFileReference section */
 		0400558B2AAF56DD00A6A5FE /* DailyC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DailyC; sourceTree = BUILT_PRODUCTS_DIR; };
-		04215FFD2AB898DF007F69C0 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 		04215FFE2AB898DF007F69C0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		042160002AB89C0B007F69C0 /* declareDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = declareDemo.h; sourceTree = "<group>"; };
 		042160012AB89C0B007F69C0 /* declareDemo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = declareDemo.c; sourceTree = "<group>"; };
@@ -76,30 +75,37 @@
 		0400558D2AAF56DD00A6A5FE /* DailyC */ = {
 			isa = PBXGroup;
 			children = (
-				040055952AAF56E400A6A5FE /* DailyC01 */,
+				042160142AB8A0A6007F69C0 /* header */,
+				040055952AAF56E400A6A5FE /* code */,
+				04215FFE2AB898DF007F69C0 /* main.c */,
 			);
 			path = DailyC;
 			sourceTree = "<group>";
 		};
-		040055952AAF56E400A6A5FE /* DailyC01 */ = {
+		040055952AAF56E400A6A5FE /* code */ = {
 			isa = PBXGroup;
 			children = (
-				04215FFD2AB898DF007F69C0 /* main.h */,
-				04215FFE2AB898DF007F69C0 /* main.c */,
-				042160002AB89C0B007F69C0 /* declareDemo.h */,
 				042160012AB89C0B007F69C0 /* declareDemo.c */,
-				042160032AB89D36007F69C0 /* structDemo.h */,
 				042160042AB89D36007F69C0 /* structDemo.c */,
-				042160062AB89D70007F69C0 /* memoryDemo.h */,
 				042160072AB89D70007F69C0 /* memoryDemo.c */,
-				042160092AB89DBA007F69C0 /* stringDemo.h */,
 				0421600A2AB89DBA007F69C0 /* stringDemo.c */,
-				0421600C2AB89DEA007F69C0 /* aboutArraysDemo.h */,
 				0421600D2AB89DEA007F69C0 /* aboutArraysDemo.c */,
-				0421600F2AB89E0D007F69C0 /* commonDemo.h */,
 				042160102AB89E0D007F69C0 /* commonDemo.c */,
 			);
-			path = DailyC01;
+			path = code;
+			sourceTree = "<group>";
+		};
+		042160142AB8A0A6007F69C0 /* header */ = {
+			isa = PBXGroup;
+			children = (
+				042160002AB89C0B007F69C0 /* declareDemo.h */,
+				042160032AB89D36007F69C0 /* structDemo.h */,
+				042160062AB89D70007F69C0 /* memoryDemo.h */,
+				042160092AB89DBA007F69C0 /* stringDemo.h */,
+				0421600C2AB89DEA007F69C0 /* aboutArraysDemo.h */,
+				0421600F2AB89E0D007F69C0 /* commonDemo.h */,
+			);
+			path = header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
